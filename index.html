@@ -11,15 +11,9 @@
             background-color: #f8f9fa; /* Light background */
             color: #343a40; /* Dark text color */
         }
-        .navbar {
-            background-color: #007bff; /* Bootstrap primary color */
-        }
-        .navbar-brand, .nav-link {
-            color: #fff; /* White text */
-        }
         .profile-container {
             text-align: center; /* Center text */
-            margin: 50px 0; /* Space from the navbar */
+            margin: 50px 0; /* Space from the top */
         }
         .profile-container img {
             max-width: 150px; /* Set a fixed width for the profile image */
@@ -45,60 +39,86 @@
             border-radius: 10px 10px 0 0; /* Rounded top corners */
         }
         .container {
-            margin-top: 30px; /* Space from the navbar */
+            margin-top: 30px; /* Space from the top */
         }
     </style>
 </head>
 <body>
 
-<!-- Top Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">My Portfolio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
 <!-- Profile Section -->
 <div class="profile-container">
     <img src="prof.png" alt="Profile Picture"> <!-- Replace with your image URL -->
+    <div class="name">My Portfolio</div>
     <div class="name">Earl Daniel B. Saplot</div>
 </div>
 
+<!-- Skills Section -->
+<div class="container">
+    <h1 class="text-center my-4">Skills</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">Proficient in creating structured web pages.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">Skilled in styling and layout design.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">Experienced in adding interactivity to web pages.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Cards Section -->
 <!-- Portfolio Cards Section -->
 <div class="container">
     <h1 class="text-center my-4">My Projects</h1>
     <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <img src="kalum.jfif" class="card-img-top" alt="Project 1"> <!-- Replace with your image -->
+                <img src="genshin.webp" class="card-img-top" alt="Project 1"> <!-- Replace with your image -->
                 <div class="card-body">
-                    <h5 class="card-title">Kalumbata VRM</h5>
-                    <p class="card-text">A Virtual Museum for theupcoming museum of M.F BUKIDNON .</p>
+                    <h5 class="card-title">GENSHIN IMPACT</h5>
+                    <p class="card-text">A brief description of project 1.</p>
                     <a href="#" class="btn btn-primary">View Project</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="project2.jpg" class="card-img-top" alt="Project 2"> <!-- Replace with your image -->
+                <img src="himp.webp" class="card-img-top" alt="Project 2"> <!-- Replace with your image -->
                 <div class="card-body">
-                    <h5 class="card-title
+                    <h5 class="card-title">HONKAI IMPACT 3rd</h5>
+                    <p class="card-text">A brief description of project 2.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="hsr.webp" class="card-img-top" alt="Project 3"> <!-- Replace with your image -->
+                <div class="card-body">
+                    <h5 class="card-title">HONKAI STAR RAIL</h5>
+                    <p class="card-text">A brief description of project 3.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                            
